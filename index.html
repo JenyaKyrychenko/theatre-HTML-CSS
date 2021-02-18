@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <title>Большой театр</title>
+</head>
+<body>
+
+<!-- Header start -->
+
+<header class="header">
+   <div class="container">
+      <nav class="header__nav">
+         <ul class="header__nav-list">
+            <a href="#!" class="header__nav-item">
+               <li class="header__nav-item">ГЛАВНАЯ</li>
+            </a>
+            <a href="#!" class="header__nav-item">
+               <li class="header__nav-item">О ТЕАТРЕ</li>
+            </a>
+            <a href="#!" class="header__nav-item">
+               <li class="header__nav-item">НАШИ ПОСТАНОВКИ</li>
+            </a>
+            <a href="#!" class="header__nav-item">
+               <li class="header__nav-item">ПАРТНЕРЫ ТЕАТРА</li>
+            </a>
+            <a href="#!" class="header__nav-item">
+               <li class="header__nav-item">КОНТАКТЫ</li>
+            </a>
+         </ul>
+         <div class="header__phone">
+            <a href="#!" class="phone">+7 495 123-45-67</a>
+         </div>
+      </nav>
+   </div>
+</header>
+
+<!-- Header end -->
+
+<!-- Intro start -->
+<main class="main">
+   <section class="intro">
+      <div class="container intro__wrap">
+         <div class="intro__item-left">
+            <h1 class="intro__title">Большой театр</h1>
+            <p class="intro__desc">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+            <button class="intro__button">АФИША</button>
+        </div>
+        <div class="intro__item-right slider">
+           <div class="slider__items">
+               <a href="#1" class="slider__link">
+                  <img src="/img/book-1.jpg" alt="" class="intro__slider-pic-1">
+               </a>
+               <a href="#2" class="slider__link">
+                  <div class="mask"></div>
+                  <img src="/img/book-2.jpg" alt="" class="intro__slider-pic-2">
+               </a>
+            </div>
+            <div class="slider__arrows">
+               <div class="left arrow__hover">
+                  <img src="./img/icons/arrow-left.svg" alt="" class="arrow-right"><span class="arrow__right-title">ПРЕД</span>
+               </div>
+               <div class="right arrow__hover">
+                  <span class="arrow__left-title">СЛЕД</span><img src="./img/icons/arrow-right.svg" alt="" class="arrow-right">
+               </div>
+            </div>
+        </div>
+     </div>
+  </section>
+  <!-- Intro end -->
+
+
+
+  <!-- About start -->
+<section class="about">
+   <div class="container">
+      <h2 class="about__title title"><span>O</span> ТЕАТРЕ</h2>
+      <div class="about__items">
+         <div class="about__item-info">
+            <h3 class="item__title">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h3>
+            <p class="info__desc">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+         </div>
+         <div class="about__item-stat">
+            <h3 class="item__title">НЕМНОГО О ЦИФРАХ</h3>
+            <img src="./img/icons/chair.svg" alt="" class="stat__pic">
+            <div class="stat__numbers"><span>1600</span> посадочных мест</div>
+            <img src="./img/icons/theater.svg" alt="" class="stat__pic">
+            <div class="stat__numbers"><span>350</span> лет истории</div>
+         </div>
+         <div class="about__item-image">
+            <img src="./img/theater.jpg" alt="" class="image__pic">
+         </div>
+   </div>
+   </div>
+</section>
+  <!-- About end -->
+
+
+  <!-- Poster start -->
+<section class="poster">
+   <div class="container">
+      <h2 class="poster__title title"><span>НАШИ</span> ПОСТАНОВКИ</h2>
+   </div>
+   <div class="poster__slider">
+   <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         <div class="wrapper">
+            <img src="./img/poster-1.jpg" alt="" class="poster__pic">
+            <span class="poster__name">ОСКАР 2021</span>
+            <span class="poster__date">СЕНТЯБРЬ 2021</span>
+            <div class="poster__show"></div>
+         </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="wrapper">
+              <img src="./img/poster-2.jpg" alt="" class="poster__pic">
+              <span class="poster__name">КАЙДАШЕВА СЕМЬЯ</span>
+              <span class="poster__date">АВГУСТ 2021</span>
+              <div class="poster__show"></div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="wrapper">
+               <img src="./img/poster-3.jpg" alt="" class="poster__pic">
+               <span class="poster__name">ЗОЛОТОЙ ГРАМОФОН</span>
+               <span class="poster__date">ИЮЛЬ 2021</span>
+               <div class="poster__show"></div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="wrapper">
+             <img src="./img/poster-4.jpg" alt="" class="poster__pic">
+             <span class="poster__name">ЩЕЛКУНЧИК</span>
+             <span class="poster__date">МАЙ 2021</span>
+             <div class="poster__show"></div>
+           </div>
+        </div>
+</div>
+</section>
+  <!-- Poster end -->
+
+
+  <!-- Graduate start -->
+<section class="graduate">
+   <div class="container">
+      <div class="graduate__wrapper">
+         <div class="graduate__years">
+            <h3 class="year">2018</h3>
+            <h3 class="year">2019</h3>
+            <h3 class="year">2020</h3>
+         </div>
+         <div class="graduate__info">
+            <div class="graduate__stars">
+               <img src="./img/icons/stars.svg" alt="" class="stars">
+            </div>
+            <div class="graduate__desc">
+               <div class="desc">Лучший театр
+                  по мнению театральных критиков Парижа</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+  <!-- Graduate end -->
+
+  <!-- Partners start -->
+
+<section class="partners">
+   <div class="container">
+      <h2 class="title"><span>ПАРТНЕРЫ</span> ТЕАТРА</h2>
+      <div class="partners__wrapper">
+         <div class="partner-logo"><img src="./img/icons/partner.png" alt="" class="logo"></div>
+         <div class="partner-logo"><img src="./img/icons/partner-1.png" alt="" class="logo"></div>
+         <div class="partner-logo"><img src="./img/icons/partner-2.png" alt="" class="logo"></div>
+         <div class="partner-logo"><img src="./img/icons/partner-3.png" alt="" class="logo"></div>
+         <div class="partner-logo"><img src="./img/icons/partner-4.png" alt="" class="logo"></div>
+         <div class="partner-logo"><img src="./img/icons/partner-5.png" alt="" class="logo"></div>
+      </div>
+   </div>
+</section>
+
+  <!-- Partners end -->
+</main>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
