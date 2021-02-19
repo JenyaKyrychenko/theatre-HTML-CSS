@@ -125,7 +125,7 @@ ul {
 
 .intro {
   height: 1045px;
-  background: url(../img/header-bg.jpg) no-repeat;
+  background: url(../img/header-bg-min.jpg) no-repeat;
   background-size: cover;
   padding: 267px 0 0 0;
 }
@@ -966,13 +966,18 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    max-width: 99%;
+    margin: 0;
   }
   .graduate__years {
     margin: 0;
   }
   .graduate__desc {
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0 auto;
+    max-width: 99%;
+  }
+  .graduate__desc .desc {
+    max-width: 99%;
   }
   .graduate__info {
     text-align: center;
@@ -983,6 +988,8 @@ ul {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    max-width: 90%;
+    margin: 0;
   }
   .poster__slider {
     padding-left: 10px;
@@ -1027,5 +1034,13 @@ ul {
   }
   .title {
     margin-bottom: 55px;
+  }
+  .header {
+    padding-top: 19px;
+    height: 60px;
+  }
+  .header__phone-mobile {
+    margin-right: 30px;
+    top: 17px;
   }
 }

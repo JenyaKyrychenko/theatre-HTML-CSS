@@ -319,6 +319,8 @@
       background: none;
       flex-wrap: wrap;
       justify-content: center;
+      max-width: 99%;
+      margin: 0;
    }
 
    .graduate__years {
@@ -326,14 +328,22 @@
    }
 
    .graduate__desc {
-      margin: 0;
-      margin-bottom: 15px;
+      margin: 0 auto;
+      max-width: 99%;
+
+      .desc {
+         max-width: 99%;
+
+      }
    }
+
 
    .graduate__info {
       text-align: center;
       display: flex;
       flex-direction: column-reverse;
+      max-width: 90%;
+      margin: 0;
    }
 
    .poster__slider {
@@ -384,4 +394,15 @@
    .title {
       margin-bottom: 55px;
    }
+
+   .header {
+      padding-top: 19px;
+      height: 60px;
+   }
+
+   .header__phone-mobile {
+      margin-right: 30px;
+      top: 17px;
+   }
+
 }
