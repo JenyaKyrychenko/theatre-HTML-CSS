@@ -19,19 +19,19 @@
    <div class="container">
       <nav class="header__nav">
          <ul class="header__nav-list">
-            <a href="#!" class="header__nav-item">
+            <a href="#1" class="header__nav-item">
                <li class="header__nav-item">ГЛАВНАЯ</li>
             </a>
-            <a href="#!" class="header__nav-item">
+            <a href="#2" class="header__nav-item">
                <li class="header__nav-item">О ТЕАТРЕ</li>
             </a>
-            <a href="#!" class="header__nav-item">
+            <a href="#3" class="header__nav-item">
                <li class="header__nav-item">НАШИ ПОСТАНОВКИ</li>
             </a>
-            <a href="#!" class="header__nav-item">
+            <a href="#4" class="header__nav-item">
                <li class="header__nav-item">ПАРТНЕРЫ ТЕАТРА</li>
             </a>
-            <a href="#!" class="header__nav-item">
+            <a href="#5" class="header__nav-item">
                <li class="header__nav-item">КОНТАКТЫ</li>
             </a>
          </ul>
@@ -46,7 +46,7 @@
 
 <!-- Intro start -->
 <main class="main">
-   <section class="intro">
+   <section class="intro" id="1">
       <div class="container intro__wrap">
          <div class="intro__item-left">
             <h1 class="intro__title">Большой театр</h1>
@@ -79,7 +79,7 @@
 
 
   <!-- About start -->
-<section class="about">
+<section class="about" id="2">
    <div class="container">
       <h2 class="about__title title"><span>O</span> ТЕАТРЕ</h2>
       <div class="about__items">
@@ -104,7 +104,7 @@
 
 
   <!-- Poster start -->
-<section class="poster">
+<section class="poster" id="3">
    <div class="container">
       <h2 class="poster__title title"><span>НАШИ</span> ПОСТАНОВКИ</h2>
    </div>
@@ -172,8 +172,7 @@
   <!-- Graduate end -->
 
   <!-- Partners start -->
-
-<section class="partners">
+<section class="partners" id="4">
    <div class="container">
       <h2 class="title"><span>ПАРТНЕРЫ</span> ТЕАТРА</h2>
       <div class="partners__wrapper">
@@ -186,9 +185,44 @@
       </div>
    </div>
 </section>
-
   <!-- Partners end -->
+
+  <!-- Sponsor start -->
+  <section class="sponsor" id="5">
+     <div class="container">
+        <h2 class="title"><span>СТАТЬ</span> МЕЦЕНАТОМ</h2>
+        <div class="sponsor__wrapper">
+           <div class="sponsor__contacts">
+              <div class="contact-item">+7 (812) 123-45-55</div>
+              <div class="contact-item">+7 (812) 123-45-66</div>
+              <div class="contact-item">info@theater.ru</div>
+              <div class="contact-item">г. санкт-петербург, невский 140</div>
+           </div>
+           <div class="sponsor__form">
+              <input type="text" class="form__name" placeholder="Имя">
+              <input type="text" class="form__company" placeholder="Компания">
+              <input type="text" class="form__message" placeholder="Сообщение">
+              <input type="number" class="form__phone" placeholder="Телефон">
+              <input type="email" class="form__email" placeholder="E-mail">
+              <p class="form__info">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+              <button type="submit" class="form__submit">ОТПРАВИТЬ</button>
+            </div>
+        </div>  
+     </div>
+  </section>
+  <!-- Sponsor end -->
 </main>
+
+<footer class="footer">
+   <div class="container footer__wrap">
+      <div class="footer__left">
+         <p>(с) Все права защищены. Большой театр. 2020</p>
+      </div>
+      <div class="footer__right">
+         <p>Разработано d-e-n.ru</p> 
+      </div>
+   </div>
+</footer>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="./js/script.js"></script>
