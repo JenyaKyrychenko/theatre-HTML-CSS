@@ -60,6 +60,7 @@ ul {
    width: 100%;
 }
 
+
 .header__nav-list {
    display: flex;
    flex-wrap: wrap;
@@ -78,6 +79,14 @@ ul {
    &:focus {
       opacity: .8;
    }
+}
+
+.header__phone-mobile {
+   display: none;
+}
+
+.header__nav-close {
+   display: none;
 }
 
 .header__phone {
