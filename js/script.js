@@ -2,7 +2,7 @@ var swiper = new Swiper('.swiper-container', {
    slidesPerView: 3,
    centeredSlides: true,
    spaceBetween: 50,
-   initialSlide:1,
+   initialSlide: 1,
  });
 
  (function(){
