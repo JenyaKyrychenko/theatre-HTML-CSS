@@ -1,0 +1,136 @@
+@media screen and (max-width:1100px) {
+
+   .container {
+      max-width: 692px;
+      margin: 0 101px 0 181px;
+   }
+}
+
+@media screen and (max-width:993px) {
+
+   .header__phone {
+      display: none;
+   }
+
+   .header__nav-list {
+      column-gap: 25px;
+   }
+
+   .slider {
+      display: none;
+   }
+
+   .intro__item-left {
+      width: 100%;
+   }
+
+   .about__item-image {
+      display: none;
+   }
+
+   .info__desc {
+      margin: 0;
+   }
+
+   .about__items .about__item-stat {
+      width: 208px;
+   }
+
+   .about__items .about__item-info {
+      width: 405px;
+   }
+
+   .graduate {
+      height: 550px;
+      width: 100%;
+
+      .graduate__container {
+         max-width: 100%;
+      }
+   }
+
+   .partners__wrapper {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 50px;
+      row-gap: 40px;
+
+      img {
+         width: 160px;
+      }
+   }
+
+   .graduate__years {
+      margin: 0 58px 0 191px;
+   }
+
+   .sponsor__wrapper {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+   }
+
+   .sponsor__contacts {
+      width: 100%;
+      flex-direction: row;
+      margin-top: 80px;
+   }
+
+   .contacts__phone {
+      width: 50%;
+   }
+
+   .contacts__addres {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: flex-end;
+   }
+}
+
+@media screen and (max-width:769px) {
+
+   .container {
+      max-width: 690px;
+      margin: 0 39px;
+   }
+
+   .intro {
+      height: 100vh;
+   }
+
+   .poster {
+      margin-bottom: 90px;
+   }
+
+   .poster__slider {
+      margin: 0;
+   }
+
+   .graduate {
+      margin-bottom: 90px;
+   }
+
+   .graduate__info {
+      margin: 0 10px;
+   }
+
+   .graduate__desc {
+
+      .desc {
+         font-size: 29px;
+         width: 388px;
+      }
+   }
+
+   .graduate__years {
+      margin-right: 10px;
+      margin-left: 70px;
+   }
+
+   .graduate__stars {
+      margin-bottom: 10px;
+   }
+
+   .partners__wrapper {
+      text-align: center;
+   }
+}

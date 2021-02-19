@@ -404,6 +404,11 @@ ul {
    margin-bottom: 150px;
 }
 
+.graduate__container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
 .graduate__wrapper {
    width: 100%;
    height: 550px;
@@ -440,6 +445,7 @@ ul {
    font-weight: bold;
    font-size: 36px;
    line-height: 150%;
+   width: 540px;
 }
 
 // --------------------------------- Graduate end
@@ -495,6 +501,10 @@ ul {
          margin-bottom: 0;
       }
    }
+}
+
+.contacts__phone {
+   margin-bottom: 25px;
 }
 
 .sponsor__form {
@@ -592,5 +602,6 @@ ul {
    }
 }
 
-
 // --------------------------------- Footer end
+
+@import '_media'
